@@ -1,10 +1,8 @@
 Configuração Inicial
 Clonar o Repositório:
 
-bash
 git clone  https://github.com/zLey-Santos/Task-List-mongoDB/tree/main
 
-bash
 # Instalar dependências do servidor
 cd task-server-list
 npm install
@@ -22,14 +20,12 @@ MONGO_URI=mongodb://localhost:27017/wesley_task_list
 Executando a Aplicação
 Iniciar o Servidor:
 
-bash
 # No diretório server/
 npm start
 O servidor estará em execução em http://localhost:3000.
 
 Iniciar o Cliente (Frontend):
 
-bash
 # No diretório client/
 npm start
 A aplicação cliente estará disponível em http://localhost:3001.
